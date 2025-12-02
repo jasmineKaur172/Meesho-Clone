@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Fashion, Electronics, Home & More</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- navigation bar 1 -->
+    <nav class = "px-[5px] fixed top-0 right-0 left-0 flex items-center justify-between lg:px-4 border-b border-solid border-black/50 bg-white md:px-2 sm:px-1 z-50">
+        <!-- Logo -->
+        <div class = "ml-[10px] lg:ml-[50px]">
+            <a href = "#">
+                <img src="meeshoLogo.png" class=" w-[80px] h-[25px] lg:h-[36px] lg:w-[165px] lg:mr-[36px] md:w-[150px] md:mr[10px] sm:w-[100px]" alt="Logo">
+            </a>
+        </div>
+        <!-- Search Bar -->
+        <div class = "w-[150px] h-[30px] lg:w-[400px] lg:h-[45px] border-2 border-solid border-black/50 rounded-md md:w-[300px] md:h-[30px] sm:w-[200px] sm:h-[25px]">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Try Saree,Kurtis Search by Product Code" class = "w-[70px] h-[15px] lg:w-[300px] lg:h-[40px] lg:p-[8.5px] md:w-[200px] md:h-[25px] sm:w-[150px] sm:h-[19px] sm:p-[5px]">
+        </div>
+        <!-- Nav Links -->
+        <div class = "flex items-center lg:gap-8 lg:p-[5px] md:gap-5 sm:gap-3" >
+            <span class = "pl-[2px] text-[15px] md:pl-[4px] text-[13px] lg:h-[60px] lg:text-[16px] font-[500] font-merriw flex items-center md:text-[15px] sm:text-[15px]">Become a supplier</span>
+            <span class = "pl-[2px] text-[15px] lg:h-[60px] lg:text-[16px] font-[500] font-merriw flex items-center border-l border-gray-400 lg:pl-4 md:pl-[4px] md:text-[15px] sm:pl-[3px] sm:text-[15px]">Investor Relations</span>
+            <div  class = "pl-[2px] text-[15px] lg:h-[60px] lg:w-[60px] flex flex-col items-center justify-center border-l border-gray-400 lg:pl-4 md:pl-[4px] md:text-[15px] sm:pl-[3px] sm:text-[15px]">
+                <i class="fa-regular fa-user"></i>
+                <span class = "pl-[2px]  h-[14px] font-[500] font-merriw md:pl-[4px] md:text-[15px] sm:pl-[3px] sm:text-[15px]">Profile</span>
+            </div>
+            <div  class = "mr:[20px] h-[60px] flex flex-col items-center justify-center lg:mr-[50px]">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class = "text-[15px]  h-[14px] lg:text-[16px] font-[500] sm:text-[15px]">Cart</span>
+            </div>
+        </div>
+    </nav>
+
+<!-- navigation bar 2 (categories nav) -->
+    <nav class="fixed right-0 left-0 bg-white z-40 top-[60px] sm:top-[60px] md:top-[61px] lg:top-[69.7px] right-0 left-0 bg-white z-40">
+        <div class="h-[52px] flex items-center border-b border-black/50 overflow-x-auto">
+            <span class="ml-[20px] flex-shrink-0">Popular</span>
+            <span class="flex-shrink-0 px-4">Kurti,Saree & Lehngas</span>
+            <span class="flex-shrink-0 px-4">Women Western</span>
+            <span class="flex-shrink-0 px-4 hidden sm:inline">Lingerie</span>
+            <span class="flex-shrink-0 px-4 hidden sm:inline">Men</span>
+            <span class="flex-shrink-0 px-4 hidden md:inline">Kids & Toys</span>
+            <span class="flex-shrink-0 px-4 hidden md:inline">Beauty & Health</span>
+            <span class="flex-shrink-0 px-4 hidden lg:inline">Jewellery & Accessories</span>
+            <span class="flex-shrink-0 px-4 hidden lg:inline">Bags & Footwear</span>
+            <span class="flex-shrink-0 px-4 hidden lg:inline">Electronics</span>
+            <span class="flex-shrink-0 px-4 mr-[20px] hidden lg:inline">Watches</span>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+    <div class="mt-[110px]"> 
+      <div class="relative">
+        <img src="mainM.webp" alt="hero" class="w-full h-[337px] bg-contain bg-no-repeat">
+        <!-- Hero Text -->
+        <div class="absolute top-[30%] left-[70%] flex flex-col gap-4 text-white text-lg lg:text-3xl font-semibold">
+          <span>Smart Shopping</span>
+          <span>Trusted by Millions</span>
+          <div class="bg-white text-violet-500 flex items-center justify-center rounded-md h-[30px] w-[100px] lg:h-[60px] lg:w-[168px]">
+            <a href="#" class="text-[16px] lg:text-[22px] text-[rgb(88,10,70)] font-semibold">Shop now</a>
+          </div>
+        </div>
+
+        <!-- Offers Section -->
+        <section class="bg-[rgb(253,238,250)] h-[70px] flex justify-center items-center">
+          <div class="w-[95%] bg-white h-[60%] border border-[rgb(257,201,231)] rounded-md flex justify-center items-center">
+            <span class="pr-[15px] border-r border-[rgb(257,201,231)]">✅7 Days Easy Return</span>
+            <span class="px-[15px] border-r border-[rgb(257,201,231)]">💸 Cash on Delivery</span>
+            <span class="pl-[15px]">💲 Lowest Prices</span>
+          </div>
+        </section>
+      </div>
+
+<!-- Shopping Section -->
+      <section class="h-[281px] bg-white-500 flex justify-center items-center">
+        <div class="h-[80%] w-[90%] bg-white flex items-center justify-between pl-[4px]">
+          <!-- Each shop category -->
+          <div class = "lg:flex flex-col items-center">
+            <img src="shop1.webp" alt="shop" >
+            <span class="pt-[2px]">Ethnic wear </span>
+          </div>
+          <div class = "hidden sm:hidden md:flex lg:flex flex-col items-center">
+            <img src="shop2.webp" alt="shop" >
+            <span class="pt-[2px]"> Western Dresses </span>
+          </div>
+          <div class = " lg:flex md:flex sm:flex flex-col items-center">
+            <img src="shop3.webp" alt="shop" >
+            <span class="pt-[2px]">Menswear</span>
+          </div>
+          <div class = "hidden lg:flex md:flex sm:flex lg:flex flex-col items-center">
+            <img src="shop4.webp" alt="shop" >
+            <span class="pt-[2px]">Footwear</span>
+          </div>
+          <div class = "hidden md:hidden lg:flex flex-col items-center">
+            <img src="shop5.webp" alt="shop" >
+            <span class="pt-[2px] ">Home Decor</span>
+          </div>
+          <div class = "hidden md:hidden lg:flex flex-col items-center">
+            <img src="shop6.webp" alt="shop" >
+            <span class="pt-[2px]">Beauty</span>
+          </div>
+          <div class = "hidden md:hidden lg:hidden flex-col items-center">
+            <img src="shop7.webp" alt="shop" >
+            <span class="pt-[2px] ">Accessories</span>
+          </div>
+          <div class = "hidden  md:hidden lg:flex flex-col items-center">
+            <img src="shop8.webp" alt="shop" >
+            <span class="pt-[2px] ">Grocery</span>
+          </div>
+        </div>
+      </section>
+
+<!-- Gold Section -->
+      <section class = "relative">
+          <!-- Large screen image -->
+          <img src="shop.webp" class="hidden sm:block md:block w-full h-[550px] bg-cover bg-no-repeat">
+          <!-- Small screen image -->
+          <img src="shopp.jpg" class="lg:hidden sm:hidden md:hidden w-full h-[550px] bg-cover bg-no-repeat">
+          <!-- Gold items grid -->
+          <div class = "left-[60%] top-[10%] grid grid-cols-2 gap-2 p-2 absolute lg:top-[2%] sm:top-[2%] md:top-[2%]lg:left-[70%] sm:left-[60%] lg:grid-cols-2 lg:gap-4 lg:p-4 md:grid-cols-2 md:gap-4 md:p-4">
+            <img src="gold1.webp" class="w-full h-[100px] lg:h-[150px] md:h-[150px] sm:h-[150px]  object-cover">
+            <img src="gold2.webp" class="w-full h-[100px] lg:h-[150px] md:h-[150px] sm:h-[150px] object-cover">
+            <img src="gold3.webp" class="w-full h-[100px] lg:h-[150px] md:h-[150px] sm:h-[150px] object-cover">
+            <img src="gold4.webp" class="w-full h-[100px] lg:h-[150px] md:h-[150px] sm:h-[150px] object-cover">
+          </div>
+      </section>
+
+<!-- Brand Offerings -->
+        <section class="h-[450px]  flex flex-col justify-start items-start">
+          <!-- Header with link -->
+          <div class="h-[48px] bg-white w-full mt-6 flex items-center px-5">
+            <span class="text-3xl">
+              Original Brands <i class="fa-solid fa-circle-check"></i>
+            </span>
+            <a href="#" class="ml-auto text-[#9F2089] text-2xl">View All &gt;</a>
+          </div>
+          <!-- Brand logos -->
+          <div class = "[360px] mt-3  w-full py-2 flex flex-row justify-between items-center lg:gap-2 overflow-x-auto">
+            <img src="brand1.webp" class="pl-2">
+            <img src="brand2.webp" class="block sm:block md:block lg:block">
+            <img src="brand3.webp" class="hidden sm:block lg:block">
+            <img src="brand4.webp" class="hidden  lg:block">
+            <img src="brand5.webp" class="pr-2 hidden lg:block">
+          </div>
+        </section>
+
+  <!-- Products Section -->
+  <section class="w-full mt-4 px-2">
+    <h2 class="text-3xl py-2 pb-[24px]">Products For You</h2>
+
+    <!-- Container for Sidebar + Products -->
+    <div class="flex flex-col md:flex-row gap-4 w-full">
+
+      <!-- Left Sidebar -->
+      <div class="w-full md:w-[20%] bg-white border-b-2 border-gray-300 pb-2">
+        
+        <!-- Sort By -->
+        <div class="p-2 border border-black rounded-md">
+          <label class="text-gray-500">Sort by:</label>
+          <select class="w-full mt-1">
+            <option>New Arrivals</option>
+            <option>Price(High To Low)</option>
+            <option>Price(Low To High)</option>
+            <option>Ratings</option>
+            <option>Discount</option>
+          </select>
+        </div>
+
+        <!-- Filters -->
+        <div class="flex flex-col mt-2 gap-2">
+          
+          <!-- Categories -->
+          <div class="m-2 border border-black rounded-md p-2">
+            <details open>
+              <summary class="cursor-pointer text-blue-500 font-semibold">Categories</summary>
+              <div class="flex flex-col mt-2 gap-2 ml-2">
+                <input type="text" placeholder="Search" class="w-[80%] border rounded md:border-black">
+                <label><input type="checkbox"> Women T-shirts</label>
+                <label><input type="checkbox"> Women Tops And Tunics</label>
+                <label><input type="checkbox"> Bike Covers</label>
+                <label><input type="checkbox"> Analog Watches</label>
+                <label><input type="checkbox"> Bangles & Braclets</label>
+                <label><input type="checkbox"> Blouses</label>
+                <label><input type="checkbox"> Bluetooth Headphones</label>
+                <label><input type="checkbox"> Boxes,Baskets & Bins</label>
+                <label><input type="checkbox"> Dresses</label>
+                <label><input type="checkbox"> Dupatta Sets</label>
+                <label><input type="checkbox"> Earings & Studs</label>
+
+                <!-- Show More -->
+                <details>
+                  <summary class="cursor-pointer text-blue-500 font-semibold text-[rgb(87,13,72)]">Show More</summary>
+                  <div class="flex flex-col mt-2 gap-2 ml-2">
+                    <input type="text" placeholder="Search">
+                    <label><input type="checkbox"> Flipflops & slippers</label>
+                    <label><input type="checkbox"> Gowns</label>
+                    <label><input type="checkbox"> Hair Accessories</label>
+                    <label><input type="checkbox"> Heels & Sandals</label>
+                    <label><input type="checkbox"> Jars & Containers</label>
+                    <label><input type="checkbox"> Jewellery Sets</label>
+                    <label><input type="checkbox"> Kids Toys</label>
+                    <label><input type="checkbox"> Kitchen Storage</label>
+                    <label><input type="checkbox"> Kitchen Tools</label>
+                    <label><input type="checkbox"> Kurta Sets</label>
+                    <label><input type="checkbox"> Kurtis</label>
+                  </div>
+                </details>
+
+              </div>
+            </details>
+          </div>
+
+          <!-- Gender collapsible -->
+            <div class = "border-b-2 border-gray-300 pb-2">
+              <div class = "flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class = "cursor-pointer text-blue-500 font-semibold">
+                    Gender
+                  </summary>
+                  <div class = "flex flex-row mt-2 gap-2">
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-sm text-gray-700 hover:bg-gray-100">Boys</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-sm text-gray-700 hover:bg-gray-100">Girls</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-sm text-gray-700 hover:bg-gray-100">Men</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-sm text-gray-700 hover:bg-gray-100">Women</a>
+                  </div>
+                </details>
+              </div>
+            </div>
+
+            <!-- Color collapsible -->
+
+            <div class = "border-b-2 border-gray-300 pb-2">
+              <div class = "flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class = "cursor-pointer text-blue-500 font-semibold">
+                    Color
+                  </summary>
+                  <div class = "flex flex-wrap mt-2 gap-2">
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Beige</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Beige Men Jeans</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Black</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Brown</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Combo Of Different Color</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Combo Of Maroon Shade</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Combo Of Red Shade</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Gold</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Gray</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Khaki</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Light Pink</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Maroon</a>
+                  </div>
+
+                  <!-- Show More collapsible -->
+
+                  <details>
+                    <summary class = "cursor-pointer text-[rgb(87,13,72)] font-semibold " >Show More</summary>
+                    <div class = "flex flex-wrap mt-2 gap-2">
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">MultiColor</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Nude</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Olive</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Orange</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Peach</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Pink</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Purple</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Red</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Rose Gold</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Silver</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Skin</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Sky Blue</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Transparent</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">White</a>
+                  </div>
+                  </details>
+                </details>
+              </div>
+            </div>
+
+            <!-- Fabric Collapsible -->
+            <div class="border-b-2 border-gray-300 pb-2">
+              <div class="flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class="cursor-pointer text-blue-500 font-semibold">Fabric</summary>
+                  <div class="flex flex-col mt-2 gap-2 ml-2">
+                    <input type="text" placeholder="Search" class="w-[80%] border rounded md border-black">
+                    <label><input type="checkbox"> 0-2 Years</label>
+                    <label><input type="checkbox"> 1.5 Meters</label>
+                    <label><input type="checkbox"> 10</label>
+                    <label><input type="checkbox"> 10-16 Years</label>
+                    <label><input type="checkbox"> 2-5 Years</label>
+                    <label><input type="checkbox"> 2.4</label>
+                    <label><input type="checkbox"> 2.6</label>
+                    <label><input type="checkbox"> 2.8</label>
+                    <label><input type="checkbox"> 28</label>
+                    <label><input type="checkbox"> 28A</label>
+                    <label><input type="checkbox"> 28B</label>
+
+                    <!-- Show More nested collapsible -->
+                    <details>
+                      <summary class="cursor-pointer text-blue-500 font-semibold text-[rgb(87,13,72)]">Show More</summary>
+                      <div class="flex flex-col mt-2 gap-2 ml-2">
+                        <input type="text" placeholder="Search">
+                        <label><input type="checkbox"> C</label>
+                        <label><input type="checkbox"> D</label>
+                        <label><input type="checkbox"> 30</label>
+                        <label><input type="checkbox"> 30A</label>
+                        <label><input type="checkbox"> 30B</label>
+                        <label><input type="checkbox"> 30C</label>
+                        <label><input type="checkbox"> 30D</label>
+                        <label><input type="checkbox"> 32</label>
+                        <label><input type="checkbox"> 34</label>
+                        <label><input type="checkbox"> 36</label>
+                        <label><input type="checkbox"> 38</label>
+                        <label><input type="checkbox"> 40</label>
+                        <label><input type="checkbox"> 4XL</label>
+                        <label><input type="checkbox"> 5-10 Years</label>
+                        <label><input type="checkbox"> 5XL</label>
+                        <label><input type="checkbox"> L</label>
+                        <label><input type="checkbox"> M</label>
+                        <label><input type="checkbox"> S</label>
+                      </div>
+                    </details>
+                  </div>
+                </details>
+              </div>
+            </div>
+
+
+            <!-- Size Collapsible -->
+            <div class="border-b-2 border-gray-300 pb-2">
+              <div class="flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class="cursor-pointer text-blue-500 font-semibold">Size</summary>
+                  <div class="flex flex-col mt-2 gap-2 ml-2">
+                    <input type="text" placeholder="Search" class="w-[80%] border rounded md border-black">
+                    <label><input type="checkbox"> Acrylic</label>
+                    <label><input type="checkbox"> Art Silk</label>
+                    <label><input type="checkbox"> Banarasi Silk</label>
+                    <label><input type="checkbox"> Chanderi Silk</label>
+                    <label><input type="checkbox"> Chiffon</label>
+                    <label><input type="checkbox"> Cotton</label>
+                    <label><input type="checkbox"> Cotton Blend</label>
+                    <label><input type="checkbox"> Cotton Cameric</label>
+                    <label><input type="checkbox"> Cotton Linen</label>
+                    <label><input type="checkbox"> Cotton Lycra</label>
+                    <label><input type="checkbox"> Cotton Silk</label>
+
+                    <!-- Show More nested collapsible -->
+                    <details>
+                      <summary class="cursor-pointer text-blue-500 font-semibold text-[rgb(87,13,72)]">Show More</summary>
+                      <div class="flex flex-col mt-2 gap-2 ml-2">
+                        <input type="text" placeholder="Search">
+                        <label><input type="checkbox"> Crepe</label>
+                        <label><input type="checkbox"> Denim</label>
+                        <label><input type="checkbox"> Dupion Silk</label>
+                        <label><input type="checkbox"> Fleece</label>
+                        <label><input type="checkbox"> Georgette</label>
+                        <label><input type="checkbox"> Glace Cotton</label>
+                        <label><input type="checkbox"> Hosiery</label>
+                        <label><input type="checkbox"> Hosiery Cotton</label>
+                        <label><input type="checkbox"> Jacquard</label>
+                        <label><input type="checkbox"> Jute</label>
+                        <label><input type="checkbox"> Jute Cotton</label>
+                      </div>
+                    </details>
+                  </div>
+                </details>
+              </div>
+            </div>
+
+            <!-- Price Collapsible -->
+            <div class="border-b-2 border-gray-300 pb-2">
+              <div class="flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class="cursor-pointer text-blue-500 font-semibold">Price</summary>
+                  <div class="flex flex-wrap mt-2 gap-2">
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹149</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹199</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹249</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹299</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹349</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹449</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Under ₹99</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹0-₹99</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹100-₹149</a>
+                    <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹150 to ₹199</a>
+                  </div>
+
+                  <!-- Show More nested collapsible -->
+                  <details>
+                    <summary class="cursor-pointer text-blue-500 font-semibold">Show More</summary>
+                    <div class="flex flex-wrap mt-2 gap-2">
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹200- ₹249</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹250-₹299</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹300-₹399</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹400-₹499</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹500-₹599</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹600-₹699</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹700-₹799</a>
+                      <a href="#" class="border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">₹800 & Above</a>
+                    </div>
+                  </details>
+                </details>
+              </div>
+            </div>
+
+            <!-- Combo Collapsible -->
+
+            <div class="border-b-2 border-gray-300 pb-2">
+              <div class="flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class="cursor-pointer text-blue-500 font-semibold">Combo</summary>
+                  <div class="flex flex-col mt-2 gap-2 ml-2">
+                    <input type="text" placeholder="Search" class="w-[80%] border rounded md border-black">
+                    <label><input type="checkbox"> Combos</label>
+                    <label><input type="checkbox"> MutltPack</label>
+                    <label><input type="checkbox"> Pack Of 1</label>
+                    <label><input type="checkbox"> Pack Of 12</label>
+                    <label><input type="checkbox"> Pack Of 2</label>
+                    <label><input type="checkbox"> Pack Of 3</label>
+                    <label><input type="checkbox"> Pack Of 4</label>
+                    <label><input type="checkbox"> Pack Of 5</label>
+                    <label><input type="checkbox"> Pack Of 6</label>
+                    <label><input type="checkbox"> Pack Of 7</label>
+                    <label><input type="checkbox"> Pack Of 8</label>
+                    <label><input type="checkbox"> Pack Of 9</label>
+
+                    <!-- Show More nested collapsible -->
+                    <details>
+                      <summary class="cursor-pointer text-blue-500 font-semibold text-[rgb(87,13,72)]">Show More</summary>
+                      <div class="flex flex-col mt-2 gap-2 ml-2">
+                        <input type="text" placeholder="Search">
+                        <label><input type="checkbox"> Single</label>
+                      </div>
+                    </details>
+                  </div>
+                </details>
+              </div>
+            </div>
+
+            <!-- DisCount Collapsible -->
+            <div class = "border-b-2 border-gray-300 pb-2">
+              <div class = "flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class = "cursor-pointer text-blue-500 font-semibold">
+                    Discount
+                  </summary>
+                  <div class = "flex flex-wrap mt-2 gap-2">
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">10% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">20% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">30% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">40% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">50% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">60% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">70% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">80% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">90% And Above</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">All Discounted</a>
+                    <a href="#" class = "border border-gray-500 pb-2 rounded-lg px-3 py-1 text-md text-gray-700 hover:bg-gray-100">Deals</a>
+                  </div>
+                </details>
+              </div>
+            </div>
+
+            <!-- Fit Collapsible -->
+
+            <div class="border-b-2 border-gray-300 pb-2">
+              <div class="flex flex-col m-2 border border-black rounded-md p-2">
+                <details open>
+                  <summary class="cursor-pointer text-blue-500 font-semibold">Fit/Shape</summary>
+                  <div class="flex flex-col mt-2 gap-2 ml-2">
+                    <input type="text" placeholder="Search" class="w-[80%] border rounded md border-black">
+                    <label><input type="checkbox"> A-line</label>
+                    <label><input type="checkbox"> Anarkali</label>
+                    <label><input type="checkbox"> Angrakha</label>
+                    <label><input type="checkbox"> Asymmetrical</label>
+                    <label><input type="checkbox"> Blouson</label>
+                    <label><input type="checkbox"> Bodycon</label>
+                    <label><input type="checkbox"> Cargo</label>
+                    <label><input type="checkbox"> Flared</label>
+                    <label><input type="checkbox"> High-Slit</label>
+                    <label><input type="checkbox"> Layered</label>
+                    <label><input type="checkbox"> Pencil</label>
+
+                    <!-- Show More nested collapsible -->
+                    <details>
+                      <summary class="cursor-pointer text-blue-500 font-semibold text-[rgb(87,13,72)]">Show More</summary>
+                      <div class="flex flex-col mt-2 gap-2 ml-2">
+                        <input type="text" placeholder="Search">
+                        <label><input type="checkbox"> Peplum</label>
+                        <label><input type="checkbox"> Pleated</label>
+                        <label><input type="checkbox"> Regular</label>
+                        <label><input type="checkbox"> Regular Fit</label>
+                        <label><input type="checkbox"> Tummy</label>
+                      </div>
+                    </details>
+                  </div>
+                </details>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Right Products Grid -->
+      <div class="flex-1 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        
+        <!-- Product 1 -->
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro1.avif" alt="Product 1" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Stylish Grey Sports Shoe for Men & Boys</h3>
+          <p class="font-semibold">₹389</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro2.avif" alt="Product 2" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Chitrarekha Attractive Kurtis</h3>
+          <p class="font-semibold">₹225</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro3.avif" alt="Product 3" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Others Cases & Covers</h3>
+          <p class="font-semibold">₹153</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro4.avif" alt="Product 4" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Chanderi Cotton Women Kurti</h3>
+          <p class="font-semibold">₹483</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro5.avif" alt="Product 5" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500"></h3>
+          <p class="font-semibold">₹210</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro6.avif" alt="Product 6" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Sweatshirts</h3>
+          <p class="font-semibold">₹202</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro7.avif" alt="Product 7" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Cotton Blend Men Shirts</h3>
+          <p class="font-semibold">₹270</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro8.avif" alt="Product 8" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Ikat Net Embroided Saree</h3>
+          <p class="font-semibold">₹333</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro9.avif" alt="Product 9" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Bluetooth Headphones & Earphones</h3>
+          <p class="font-semibold">₹266</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro10.avif" alt="Product 10" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Modern Elegant Boys Top & Bottom</h3>
+          <p class="font-semibold">176</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro11.avif" alt="Product 11" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Phonolite Flipflops & Slippers</h3>
+          <p class="font-semibold">₹177</p>
+        </div>
+
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro12.avif" alt="Product 12" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Casual Shoes</h3>
+          <p class="font-semibold">₹489</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro13.avif" alt="Product 13" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Classy Partywear Men Sweatshirts</h3>
+          <p class="font-semibold">₹276</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro14.avif" alt="Product 14" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Alluring Men Analog Watches</h3>
+          <p class="font-semibold">₹158</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro15.avif" alt="Product 15" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Modern Trendy Girls Top & Bottom</h3>
+          <p class="font-semibold">₹198</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro16.avif" alt="Product 16" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Essential Earings & Studs</h3>
+          <p class="font-semibold">₹175</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro17.avif" alt="Product 17" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Aagyeyi Voguish Sarees</h3>
+          <p class="font-semibold">₹310</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro18.avif" alt="Product 18" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Jivika Voguish Women Kuta Sets</h3>
+          <p class="font-semibold">₹309</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro19.avif" alt="Product 19" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Versatile Women Casual Shoes</h3>
+          <p class="font-semibold">₹338</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro20.avif" alt="Product 20" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Aadab Fashionable Men Flip Flops</h3>
+          <p class="font-semibold">₹185</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro21.avif" alt="Product 21" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Trendy Retro Men Shirts</h3>
+          <p class="font-semibold">₹198</p>
+        </div>
+
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro22.avif" alt="Product 22" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Abhisarikha Alluring Sarees</h3>
+          <p class="font-semibold">₹268</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro23.avif" alt="Product 23" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Voguish Attractive Women Handbags</h3>
+          <p class="font-semibold">₹192</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro24.avif" alt="Product 24" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Modern Women Bl;ouses</h3>
+          <p class="font-semibold">₹152</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro25.avif" alt="Product 25" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Apple iphone 15 Cases & Covers</h3>
+          <p class="font-semibold">₹334</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro26.avif" alt="Product 26" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Relaxed Trendy Men Sports Shoes</h3>
+          <p class="font-semibold">₹261</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro27.avif" alt="Product 27" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Fancy Fashionable Men Jackets</h3>
+          <p class="font-semibold">₹366</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro28.avif" alt="Product 28" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Ardika Superior Kurtis</h3>
+          <p class="font-semibold">₹242</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro29.avif" alt="Product 29" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Princess Funky Boys Top & Bottom</h3>
+          <p class="font-semibold">₹192</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro30.avif" alt="Product 30" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Adrika Sensational Sarees</h3>
+          <p class="font-semibold">₹343</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro31.avif" alt="Product 31" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Kurta Sets</h3>
+          <p class="font-semibold">₹348</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="proo32.avif" alt="Product 32" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Feminine Chunky Jewellery Sets</h3>
+          <p class="font-semibold">₹188</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro33.avif" alt="Product 33" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Feminine Glittering Bracelet</h3>
+          <p class="font-semibold">₹111</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro34.avif" alt="Product 34" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Other Cases & Covers</h3>
+          <p class="font-semibold">₹128</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro35.avif" alt="Product 35" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Cotton Blend Men Cotton </h3>
+          <p class="font-semibold">₹273</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro36.avif" alt="Product 36" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Fashionable Bedsheets</h3>
+          <p class="font-semibold">₹260</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro37.avif" alt="Product 37" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Kashvi Faboulous Women Kurts</h3>
+          <p class="font-semibold">₹308</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro38.avif" alt="Product 38" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Women Blouses</h3>
+          <p class="font-semibold">₹172</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro39.avif" alt="Product 39" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Versatile Men Caps</h3>
+          <p class="font-semibold">₹154</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro40.avif" alt="Product 40" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Myra Petite Kurtis</h3>
+          <p class="font-semibold">₹239</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro41.avif" alt="Product 41" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Bluetooth Headphones & Earphones</h3>
+          <p class="font-semibold">₹336</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro42.avif" alt="Product 42" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Jewellery Sets</h3>
+          <p class="font-semibold">₹157</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro43.avif" alt="Product 43" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Vivo Y11 Cases & Covers</h3>
+          <p class="font-semibold">₹217</p>
+        </div>
+
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro44.avif" alt="Product 44" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">New Sweatshirts</h3>
+          <p class="font-semibold">₹210</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro45.jpg" alt="Product 45" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Classy Partywear Men Sweatshirts</h3>
+          <p class="font-semibold">₹276</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro46.avif" alt="Product 46" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Bluetooth Headphones & Earphones</h3>
+          <p class="font-semibold">₹272</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro47.avif" alt="Product 47" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Shimmer Net Sarees</h3>
+          <p class="font-semibold">₹305</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro48.avif" alt="Product 48" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Men Cotton Regular Tshirts</h3>
+          <p class="font-semibold">₹99</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro49.avif" alt="Product 49" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Modern Comfy Boys Tshirts</h3>
+          <p class="font-semibold">₹157</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro50.avif" alt="Product 50" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Allure Fancy Wome Necklaces</h3>
+          <p class="font-semibold">₹112</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro51.avif" alt="Product 51" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">APPLE iphone 13 Cases</h3>
+          <p class="font-semibold">₹151</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro52.avif" alt="Product 52" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Bluetooth Headphones & Earphones</h3>
+          <p class="font-semibold">₹280</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro53.avif" alt="Product 53" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Attractive Bedsheets</h3>
+          <p class="font-semibold">₹162</p>
+        </div>
+
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro54.avif" alt="Product 54" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Trendy Retro Men Shirts</h3>
+          <p class="font-semibold">₹331</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro55.avif" alt="Product 55" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Dupatta Sets</h3>
+          <p class="font-semibold">₹468</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro56.avif" alt="Product 56" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Adab Fabulous Flipflops</h3>
+          <p class="font-semibold">₹139</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro57.avif" alt="Product 57" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Realme C11 Cases & Covers</h3>
+          <p class="font-semibold">₹68</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro58.avif" alt="Product 58" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Vivo Y21G Cases & Covers</h3>
+          <p class="font-semibold">₹141</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro59.avif" alt="Product 59" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Women Necklaces</h3>
+          <p class="font-semibold">₹107</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro60.avif" alt="Product 60" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Casual Shoes</h3>
+          <p class="font-semibold">₹309</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro61.avif" alt="Product 61" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Women Flipflops</h3>
+          <p class="font-semibold">₹161</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro62.avif" alt="Product 62" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Cute Boys Tops & Bottom</h3>
+          <p class="font-semibold">₹227</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro63.avif" alt="Product 63" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Jackets</h3>
+          <p class="font-semibold">₹310</p>
+        </div>
+
+        <div class="cursor-pointer p-2 rounded-md shadow-md h-[400px]">
+          <img src="pro64.avif" alt="Product 64" class="w-full h-[300px] object-cover rounded-md">
+          <h3 class="mt-2 text-gray-500">Trendy Faboulous Kurtis</h3>
+          <p class="font-semibold">₹188</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Foot Panel 1 -->
+    <Footer class ="bg-[rgb(248,248,255)] h-[4000px] w-full">
+      <div class = "">
+        <h1 class = "mt-10 pl-6 pt-8 ml-5 text-3xl">Shop Non-Stop On Meesho</h1>
+        <h3 class = "mt-3 pl-6 ml-5 text-gray-500 text-xl">Trusted by crores of Indians</h3>
+        <h3 class = "ml-5 pl-6 text-gray-500 text-xl">Cash On Delivery | Free Delivery</h3>
+        <div class = "flex flex-row ml-5">
+          <img src = "play.png" class = "mt-5 border rounded-lg w-[225px] md:w-[375.5px] lg:w-[390px]">
+          <img src = "app.png" class = "mt-5 ml-2 border rounded-lg w-[225px] md:w-[375.5px] lg:w-[390px]">
+        </div>
+        <div class = "grid grid-cols-2">
+          <h3 class = "mt-3 pl-6 ml-5 text-gray-500 text-xl">CareersBecome a Supplier</h3>
+          <h3 class = "ml-5 pl-6 text-gray-500 text-xl">Legal and PoliciesMeesho Tech Blog</h3>
+          <h3 class = "mt-3 pl-6 ml-5 text-gray-500 text-xl">Hall Of FameSitemap</h3>
+          <h3 class = "ml-5 pl-6 text-gray-500 text-xl">Notices and Returns</h3>
+        </div>
+        <div class="grid grid-cols-2 w-[40%] gap-6 ml-8 mt-4">
+          <!-- Reach Out Section -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-2">Reach out to us</h3>
+            <div class="flex flex-row gap-2 ">
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-square-twitter"></i>
+            </div>
+          </div>
+
+          <!-- Contact Us Section -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-2">Contact Us</h3>
+            <div class="flex flex-col text-sm  ">
+              <span>Meesho Technologies Private Limited</span>
+              <span>
+                CIN: U62099KA2024PTC18658  
+                3rd Floor, Wing-E, Helios Business Park,  
+                Kadubeesanahalli Village, Varthur Hobli,  
+                Outer Ring Road, Bellandur, Bangalore South,  
+                Karnataka, India, 560103
+              </span>
+              <span>E-mail: query@meesho.com</span>
+              <span>© 2015-2025 Meesho.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="pt-4 pl-4 bg-white w-[90%] mx-auto mt-6 border border-gray-300 rounded-lg">
+          <details open>
+            <summary class="cursor-pointer font-semibold text-xl border-b border-gray-300 pb-2">More About Meesho</summary>
+            <div class = "bg-white mx-auto mt-6">
+              <div >
+                <h1 class="text-3xl p-2">Discover a World of Affordable Fashion & Everyday Essentials</h1>
+                <p class ="p-2">Upgrade your wardrobe and stock your home with the latest trends and essentials at prices designed for everyday value. Meesho offers a vast selection of products across all categories, ensuring you find everything you need at prices suited for everyday budgets.</p>
+                </div>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Shop Millions of Products Across All Categories</h1>
+                <p class ="p-2">From trendy fashion finds to essential homeware, Meesho is your one-stop shop for everything you need. Explore millions of products across a wide variety of categories, ensuring you find the perfect item for any occasion.</p>
+              </div>
+              <div >
+                <h1 class="text-4xl p-4">Latest Women's Fashion Is Right Here</h1>
+                <h2 class="text-2xl p-2 pt-4">Western Wear for Women</h2>
+                <p class ="p-2">Are you looking to revamp your wardrobe with stylish and affordable pieces? Look no further than Meesho's extensive collection of women's western wear. Find trendy dresses, casual jeans, and comfortable tops suitable for any occasion. Our collection reflects current trends, with fresh styles added regularly , ensuring you stay on top of your fashion game. Browse our collection of funky jewelry and accessories to complete your look and express your unique style.</p>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Accessories, Jewellery, and Footwear</h1>
+                <p class ="p-2">Elevate your outfit and add a touch of personality with Meesho's diverse range of accessories. Choose from a wide selection of jewelry sets, handbags, belts, and footwear to complement your style. Whether you're searching for statement earrings or comfortable sneakers, you’ll find a wide selection to suit your style.</p>
+              </div>
+              <div >
+                <h1 class="text-4xl p-4">Largest Collection of Menswear and Accessories</h1>
+                <h2 class="text-2xl p-2 pt-4">Men’s Western Wear</h2>
+                <p class ="p-2">Upgrade your casual or formal attire with Meesho's men's wear collection. We offer a vast selection of T-shirts, jeans, polos, coats, and shirts in all sizes. Our user-friendly search tool allows you to filter by size, color, and material, making it easy to find the perfect fit. Explore our collection of trendy accessories, including wallets, cufflinks, and bags, to add a touch of sophistication to your look.</p>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Men’s Accessories and Footwear</h1>
+                <p class ="p-2">From men's accessories to the latest footwear collection, we have picked out something for you, your better half, or your brother! Shop our online collection of items like men's wallets, cufflinks, bags for men, belts, rings, and more. Remember to check out our latest footwear for men. From vibrant sneakers to formal office wear shoes to casual/ daily wear flip-flops, explore quality men’s products curated for every occasion. So don't waste another minute. Get yourself some accessories today!</p>
+              </div>
+              <div >
+                <h1 class="text-4xl p-4">Shop Home Decor & Kitchen Products, Electronics, and Much More</h1>
+                <h2 class="text-2xl p-2 pt-4">Kitchen Products</h2>
+                <p class ="p-2">If you want to elevate your kitchen space, then you've come to the right place! Discover and browse a wide variety of quality home products, kitchen essentials like cooking utensils and serveware, kitchen storage, appliances like blenders, choppers, cooktops, and more! We are dedicated to providing our customers with the highest quality products at the most reasonable prices. Shop everything you need to spice up your kitchen and home! Happy shopping!</p>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Home Utility and Essentials</h1>
+                <p class ="p-2">Home styling is not just a trend but a necessity of the hour for every home - it keeps your surroundings freshand aesthetic. But of course, you only want to spend what you have to. Meesho offers a variety of home decor essentials across styles and budgets — from lamps and planters to curtains and cushions. Our selection is regularly updated to reflect evolving design preferences</p>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Electronics and Accessories</h1>
+                <p class ="p-2">At Meesho, you’ll find a variety of gadgets and accessories for your everyday electronic needs — including chargers, headphones, data cables, and power banks. Whether you’re looking for something functional or a thoughtful gift, our selection offers something for everyone.</p>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Health, Fitness & Sports</h1>
+                <p class ="p-2">Health is wealth! We know how important it is for you to take care of your health and your family's fitness. To begin your healthcare journey, explore a range of fitness and wellness products suited for home workouts and everyday use. . You will find a wide variety of fitness equipment, health supplements, foods, nuts, and many more at very affordable prices. So what are you waiting for? Get started with your home workouts by shopping for dumbbell sets, exercise bands, exercise mats, skipping ropes, sports kits, and more!</p>
+              </div>
+              <div >
+                <h1 class="text-2xl p-2 pt-4">Office Supplies and Stationery</h1>
+                <p class ="p-2">We have a wide range of stationery items which will help you stay tidy and organised. You can buy notebooks, diaries and notepads and craft supplies which are great for school and college, or you can buy office supplies which are great for adults. We have a variety of pens, pencils, and other stationery supplies to ensure that you have what you need to write down your thoughts, make lists and so much more</p>
+              </div>
+              <div >
+                <h1 class="text-4xl p-4">Join the Meesho Community</h1>
+                <p class ="p-2">For a seamless online shopping experience, feel free to download the Meesho App. With millions of happy customers, we believe in growing our community. To give you a hassle-free online shopping experience, plenty of user-friendly features will make your shopping online easier than ever. Meesho offers multiple payment options, debit and credit cards, UPI, and COD, to help you with a smooth checkout process. Suppose you are unhappy or receive a damaged product. In that case, you can raise your concern with our expert team to immediately return them or get a full refund without questions. For any queries or concerns, send us an email at query@meesho.com. You can also contact us on social media through Facebook, Instagram, or Twitter. We're here to help you.</p>
+              </div>
+              <div >
+                <h1 class="text-3xl p-4 cursor-pointer text-[rgb(159,52,137)]">Download Meesho App Now</h1>
+                <h2 class="text-2xl p-2 py-4">More Than Just Shopping</h2>
+                <p class ="p-2">Interested in selling online? Meesho enables individuals to start their selling journey with ease. </p>
+              </div>
+
+              <!-- Links -->
+
+              <div>
+                <h1 class = "text-3xl p-4 cursor-pointer text-[rgb(159,52,137)]">Online Shopping</h1>
+                <h6 class="font-semibold">Baby</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Baby Blanket | Baby Hanging Cradle | Baby Pillows | Baby Sleeping Bag | Baby Towels</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Electronics & Accessories</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Android Smart Watches | Bluetooth Earphones | Bluetooth Speakers | Car Mobile Holders | Car Mobile Holders | CCTV Cameras | Data Cables | Digital Photo Frames | Dongle | Earphones | Fast Charging Power Banks | Headphones | Keyboard | Laptop Accessories</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Home & Kitchen</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Aprons | Choppers | Chopping Boards | Cookers | Cutlery | Food Processors | Food Strainers | Funnels | Graters | Hand Blender | Ice Cube Trays | Ice Cream Scoops | Jars & Container | Juicer | Kitchen Gloves | Kitchen Mat | Kitchen Scissors | Kitchen Towel | Knives</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Home & Living</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Bean Bags | Bedding Sets | Blankets | Coasters | Cotton Bedsheets | Cotton Towel | Cushions | Curtains & Sheers | Decorative Items | Duvet Covers | Face Towels | Home Temple | Pillow Covers | Round Cushions | Single Bed Sheet | Sofa Covers | Trays | Yoga mats</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Kids</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Girls Stylish Tops | Kids Blazers | Kids Ethnic Gowns | Kids Ethnic Jackets | Kids Kurtis & Kurtas | Kids Lunch Boxes | Kids Salwar Suit Sets | Rompers | Tshirts Boys</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Men Accessories</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Gold Jewellery Men | Hair Spray For Men | Leather Watches Men | Men Crossbody Bags | Men Keychains | Men Scarves | Men Shirt Studs | Men Socks | Men Wrist Bands</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Men Ethnicwear</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Men Dhoti Kurtas | Men Dhotis | Men Indo Western Dresses | Men Velvet Sherwanis</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Personal Care & Wellness</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Bb Cream | Beard Oil | Body Scrub | Compact | Deodorants | Eye Lenses | Face Steamers | Hair Care | Hair Color | Hair Steamers | Lip Balm | Makeup Kits | Nail Cutter | Oximeter | Olive Oils | Oral Care | Soap | Talcum Powder | Tummy trimmer</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Women Accessories</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Ankle Socks Women | Bindis | Briefcases | Bridal Anklets | Cateye Sunglasses | Chandbali Earrings | Clutches | Hair Accessories | Handbags | Hijabs | Hoop Earrings | Jewellery Set | Maangtika | Multi Necklace | Nosepins | Oxidised Ring | Pashmina Shawls</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Women Ethnicwear</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Abaya | Black Kurta | Blouse Piece | Chikankari Kurtis | Designer Lehenga | Designer Suits | Kurti Fabric | Petticoats | Phulkari Dupatta | Puff Sleeve Blouses | Sharara | Silk Saree | Velvet Shawls</p>
+              </div>
+              <div>
+                <h6 class="font-semibold">Women Footwear</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Bellies | Juttis & Mojaris | Women Slippers</p>
+              </div>
+              <div class="pb-6">
+                <h6 class="font-semibold">Women Western Wear</h6>
+                <p class="cursor-pointer text-[rgb(159,52,137)]">Ankle Length Leggings | Black Camisoles | Black Jeggings | Body shapers | Capris | Chikankari Palazzos | Cotton Bathrobes | Denim Women Shorts | Designer Gown | Fancy Ladies Sweater | Flared Jeans | Jacket Dresses | Kaftans | Lace Lingerie Sets </p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </Footer>
+  </body>
+</html>
